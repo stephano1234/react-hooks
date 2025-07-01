@@ -1,0 +1,1 @@
+(git stash && npm run build && (git stash pop || true)) || (git stash pop && false)
