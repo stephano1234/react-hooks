@@ -47,11 +47,6 @@ export default function SnackbarProvider({
       return;
     }
 
-    if (!open && activeConfig && !config) {
-      setActiveConfig(null);
-      return;
-    }
-
     if (open && activeConfig && config) {
       setOpen(false);
       return;
